@@ -1,5 +1,5 @@
 {
-  "name": "@harishkarthick/button",
+  "name": "package-test",
   "version": "1.0.0",
   "description": "button for react js",
   "main": "dist/index.js",
@@ -9,11 +9,14 @@
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/@Harishkarthick"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Harishkarthick/package-test.git"
   },
-  "author": "harish",
+  "author": "Harishkarthick",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Harishkarthick/package-test/issues"

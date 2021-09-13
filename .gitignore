@@ -1,6 +1,7 @@
 dist
 build
 
+*npmrc
 .idea/
 .vs/
 .vscode/
