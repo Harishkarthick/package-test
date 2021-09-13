@@ -2,7 +2,9 @@
   "name": "@harishkarthick/button",
   "version": "1.0.0",
   "description": "button for react js",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "source":"src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/Harishkarthick/package-test/issues"
   },
-  "homepage": "https://github.com/Harishkarthick/package-test#readme"
+  "homepage": "https://github.com/Harishkarthick/package-test#readme",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "styled-components": "^5.3.1"
+  }
 }
