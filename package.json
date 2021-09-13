@@ -4,9 +4,9 @@
   "description": "button for react js",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "source":"src/index.jsx",
+  "source": "src/index.jsx",
   "scripts": {
-    "build":"webpack --mode production",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,9 +23,17 @@
     "react": "^17.0.2"
   },
   "devDependencies": {
-    "react": "^17.0.2"
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "react": "^17.0.2",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
+    "babel-loader": "^8.2.2",
     "prop-types": "^15.7.2",
     "styled-components": "^5.3.1"
   }
